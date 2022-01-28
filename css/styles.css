@@ -1,0 +1,92 @@
+body {
+  background-image: url(../img/malik-skydsgaard-ylGcmefqE_I-unsplash.jpg);
+  background-size: cover;
+}
+
+
+header {
+  background-color: rgba(0, 0, 0, 0.365);
+  color: rgba(206, 191, 172, 0.769);
+  text-align:center;
+  font-size: 2em;
+}
+
+a {
+  color: rgba(245, 223, 195, 0.749);
+}
+
+a:hover {
+  color: rgb(255, 241, 219);
+  text-decoration: none;
+}
+
+.card {
+  padding: 2em;
+  margin: 2em;
+  background-image: url(../img/sj-objio-XFWiZTa2Ub0-unsplash.jpg);
+  background-size: cover;
+  box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.8), 0 16px 30px 0 rgba(0, 0, 0, 0.7);
+}
+
+#me {
+  width: 20%;
+  height: 20%;
+  padding: 0px;
+  border: 0px;
+}
+
+.card:hover {
+  box-shadow: 0 28px 36px 0 rgba(0, 0, 0, 0.8), 0 32px 60px 0 rgba(0, 0, 0, 0.8);
+}
+
+#buttons2 {
+  display: none;
+}
+
+#multiplayer {
+  display: none;
+}
+
+#dice1, #dice2, #dice3, #dice4, #dice5, #dice6 {
+  display: none;
+  max-width: 200px;
+  margin: auto;
+}
+
+#pigDiceBody {
+  font-family: 'Bebas Neue';
+}
+
+#pigDiceHeader h1 {
+  color: black;
+  border-bottom: none;
+}
+
+.row h1 {
+  border-bottom: solid black 2px;
+}
+
+#rowDice {
+  background-color: rgba(255, 250, 245, 0.701);
+  max-width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  border-radius: 10%;
+  text-align: center;
+  box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.8), 0 16px 30px 0 rgba(0, 0, 0, 0.7);
+}
+
+#players {
+  background-color: rgba(255, 255, 255, 0.666);
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin-bottom: 2em;
+  text-align: center;
+  box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.8), 0 16px 30px 0 rgba(0, 0, 0, 0.7);
+}
+
+#player1-wins, #player2-wins {
+  display: none;
+}

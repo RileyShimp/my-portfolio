@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel='stylesheet' href='css/bootstrap.css' type='text/css'>
+  <link rel='stylesheet' href='css/styles.css' type='text/css'>
+  <script src='js/jquery-3.6.0.js'></script>
+  <script src='js/scripts.js'></script>
+  <title>CardBox</title>
+</head>
+<body>
+  <header class="header">
+    <h1>
+      <a id="linkedin" href="https://www.linkedin.com/in/rileyshimp/">LinkedIn</a>
+      <a id="github" href="https://github.com/RileyShimp">GitHub</a>
+  </h1>
+
+  </header>
+  <div class="container">
+    <div class="row">
+      <div class="col card" id="me">
+        <img src="img/7906D10D-539B-426C-93EF-4772DF0A5E10-41524-0000270E96B1960F.png" alt="Riley">
+      </div>
+      <div class="col-md card">
+        <h1>Riley Shimp</h1>
+        <p>Ambitious software engineering student bringing an ability to learn quickly coupled with high-level communication skills. I have a background in Audio Engineering and successfully ran a business of my own for about three years until my daughter was born. After taking a year off work to be with my daughter full time, I decided to leave the studio behind and find a new direction. I've recently taken the first steps to pursue a career in software development. I'm currently studying at Epicodus where I've become proactive at working with multiple languages, as well as troubleshooting, identifying and resolving bug issues. Having a proven willingness to take on any task to support my team, I'm determined to become a successful junior software engineer.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="card col">
+        <h3>projects</h3>
+      </div>
+      <div class="card col">
+        <h3>projects</h3>
+      </div>
+      <div class="card col">
+        <h3>projects</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg card">
+        <h1>Pig Dice</h1>
+        <h3>A dice game made using JavaScript!</h3>
+        <div class="container" id="pigDiceBody">
+          <div id="game">
+            <button id="computer" type="button" class="btn btn-danger">computer OFF</button>
+            <button id="multiplayer" type="button" class="btn btn-success">Computer ON</button>
+            <div class="row" id="players">
+              <div class="col-6 player1">
+                <h1>Player One</h1>
+                <h2>Total Score</h2>
+                <p id="p1Total"></p>
+                <h2 >Turn Score</h2>
+                <p id="p1Turn"></p>
+                <div id="buttons1">
+                  <button class="btn btn-primary btn-lg" id="roll1">ROLL!</button>
+                  <button class="btn btn-secondary btn-lg" id="end1">HOLD</button>
+                </div>
+              </div>
+              <div class="col-6 player2">
+                <h1>Player Two</h1>
+                <h2>Total Score</h2>
+                <p id="p2Total"></p>
+                <h2 >Turn Score</h2>
+                <p id="p2Turn"></p>
+                <div id="buttons2">
+                  <button class="btn btn-primary btn-lg" id="roll2">ROLL!</button>
+                  <button class="btn btn-secondary btn-lg" id="end2">HOLD</button>
+                </div>
+              </div>
+            </div>
+            <div class="row" id="rowDice">
+              <div class="col-12 dice">
+                <h1>Your roll:</h1>
+                <img id="dice1" src="img/dice 1.png">
+                <img id="dice2" src="img/dice 2.png">
+                <img id="dice3" src="img/dice 3.png">
+                <img id="dice4" src="img/dice 4.png">
+                <img id="dice5" src="img/dice 5.png">
+                <img id="dice6" src="img/dice 6.png">
+              </div>
+            </div>
+          </div>
+          <div id="player1-wins">
+            <h1>PLAYER ONE WINS!</h1>
+            <button class="btn btn-dark" onClick="window.location.reload();">RESET GAME</button>
+          </div>
+          <div id="player2-wins">
+            <h1>PLAYER TWO WINS!</h1>
+            <button class="btn btn-dark" onClick="window.location.reload();">RESET GAME</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
