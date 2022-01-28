@@ -9,37 +9,58 @@
 </head>
 <body>
   <header class="header">
-    <h1>
-      <a id="linkedin" href="https://www.linkedin.com/in/rileyshimp/">LinkedIn</a>
-      <a id="github" href="https://github.com/RileyShimp">GitHub</a>
-  </h1>
-
+    <div class="linkedin">
+      <h1>
+        <a href="https://www.linkedin.com/in/rileyshimp/">LinkedIn</a>
+      </h1>
+    </div>
+    <div class="github">
+      <h1>
+        <a href="https://github.com/RileyShimp">GitHub</a>
+      </h1>
+    </div>
   </header>
-  <div class="container">
+  <div class="container-lg">
     <div class="row">
-      <div class="col card" id="me">
+      <div class="col-5 card" id="me">
         <img src="img/7906D10D-539B-426C-93EF-4772DF0A5E10-41524-0000270E96B1960F.png" alt="Riley">
       </div>
       <div class="col-md card">
         <h1>Riley Shimp</h1>
-        <p>Ambitious software engineering student bringing an ability to learn quickly coupled with high-level communication skills. I have a background in Audio Engineering and successfully ran a business of my own for about three years until my daughter was born. After taking a year off work to be with my daughter full time, I decided to leave the studio behind and find a new direction. I've recently taken the first steps to pursue a career in software development. I'm currently studying at Epicodus where I've become proactive at working with multiple languages, as well as troubleshooting, identifying and resolving bug issues. Having a proven willingness to take on any task to support my team, I'm determined to become a successful junior software engineer.</p>
+        <h3>Student Software Engineer</h3>
+        <h5>Salem, Oregon</h5>
+        <p> I have a background in Audio Engineering and successfully ran a business of my own for almost three years until my daughter was born. Recently, I've taken the first steps to pursue a career in software development. I'm currently studying at Epicodus where I've become proactive at working with multiple languages, as well as troubleshooting, identifying and resolving bug issues.</p>
       </div>
     </div>
     <div class="row">
       <div class="card col">
-        <h3>projects</h3>
-      </div>
-      <div class="card col">
-        <h3>projects</h3>
-      </div>
-      <div class="card col">
-        <h3>projects</h3>
+        <h3>Check out my code!</h3>
+        <h5>Here's some links to my favorite school projects..</h5>
       </div>
     </div>
     <div class="row">
-      <div class="col-lg card">
+      <div id="link3" class="card col-sm link">
+        <a href="https://github.com/RileyShimp/pig-dice">
+          <img src="img/BB.png" alt="">
+        </a>
+      </div>
+      <div id="link1" class="card col-sm link">
+        <a href="https://github.com/RileyShimp/beep-boop">
+          <img src="img/BB.png" alt="">
+        </a>
+      </div>
+      <div id="link2" class="card col-sm">
+        <a href="https://github.com/RileyShimp/languagesuggester">
+          <img src="img/LS.png" alt="">
+        </a>
+      </div>
+    </div>
+    <div class="row">
+      <div id="pigCard" class="col-lg card">
         <h1>Pig Dice</h1>
         <h3>A dice game made using JavaScript!</h3>
+        <h5>First to 50 wins. Don't roll a 1!</h5>
+        <p>Play against a friend, or my computer..</p>
         <div class="container" id="pigDiceBody">
           <div id="game">
             <button id="computer" type="button" class="btn btn-danger">computer OFF</button>
@@ -70,7 +91,7 @@
             </div>
             <div class="row" id="rowDice">
               <div class="col-12 dice">
-                <h1>Your roll:</h1>
+                <h2>Your roll:</h2>
                 <img id="dice1" src="img/dice 1.png">
                 <img id="dice2" src="img/dice 2.png">
                 <img id="dice3" src="img/dice 3.png">
